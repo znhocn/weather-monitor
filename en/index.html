@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>Weather Monitor | Hakr</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/style.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Hakr</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="https://www.hakr.xyz/">Home</a></li>
+            <li><a href="https://www.hakr.xyz/about">About</a></li>
+            <li><a href="https://blog.hakr.xyz/">Blog</a></li>
+            <li><a href="https://lnk.hakr.xyz/">NavLabel</a></li>
+            <li class="active"><a href="https://wer.hakr.xyz/">Weather</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container -->
+    </nav>
+
+    <div class="container">
+
+      <div class="masthead">
+        <nav>
+          <ul class="nav nav-justified">
+            <!-- <li class="active"><a href="/weather/">Weather</a></li> -->
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Weather <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/en/weather/shanghai/">Shanghai</a></li>
+                <li><a href="/en/weather/hangzhou/">Hangzhou</a></li>
+              </ul>
+            </li>
+            <!-- <li><a href="/aqi/">AQI</a></li> -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AQI <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/en/aqi/shanghai/">Shanghai</a></li>
+                <li><a href="/en/aqi/hangzhou/">Hangzhou</a></li>
+              </ul>
+            </li>
+            <li><a href="/en/sunnyclock/">Sunny Clock</a></li>
+            <li><a href="/en/cyclones/">Cyclones</a></li>
+            <li><a href="/en/earthquake/">Earthquake</a></li>
+            <li><a href="/en/radiation/">Radiation</a></li>
+            <li><a href="/en/geomagnetism/">Geomagnetism</a></li>
+            <li><a href="/en/spaceweather/">Space Weather</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="jumbotron">
+        <div class="bs-glyphicons">
+          <div class="starter-template">
+            <a href="#"><h4 class="" id="Downtown">Hangzhou (Downtown)</h4></a>
+            <iframe id=forecast_embed type=text/html frameborder=0 height=245 width=100% src="https://forecast.io/embed/#lat=30.249&lon=120.2052&name=Hangzhou (Downtown)&color=&units=ca"></iframe>
+            <a href="#Binjiang"><h4 class="area" id="Binjiang">Binjiang, Hangzhou, Zhejiang</h4></a>
+            <iframe id=forecast_embed type=text/html frameborder=0 height=245 width=100% src="https://forecast.io/embed/#lat=30.211&lon=120.2074&name=Binjiang, Hangzhou&color=&units=ca"></iframe>
+            <a href="#Xiaoshan"><h4 class="area" id="Xiaoshan">Xiaoshan, Hangzhou, Zhejiang</h4></a>
+            <iframe id=forecast_embed type=text/html frameborder=0 height=245 width=100% src="https://forecast.io/embed/#lat=30.1862&lon=120.2598&name=Xiaoshan, Hangzhou&color=&units=ca"></iframe>
+            <a href="#Shangcheng"><h4 class="area" id="Shangcheng">Shangcheng, Hangzhou, Zhejiang</h4></a>
+            <iframe id=forecast_embed type=text/html frameborder=0 height=245 width=100% src="https://forecast.io/embed/#lat=30.2447&lon=120.1647&name=Shangcheng, Hangzhou&color=&units=ca"></iframe>
+            <a href="#Xiacheng"><h4 class="area" id="Xiacheng">Xiacheng, Hangzhou, Zhejiang</h4></a>
+            <iframe id=forecast_embed type=text/html frameborder=0 height=245 width=100% src="https://forecast.io/embed/#lat=30.284&lon=120.1763&name=Xiacheng, Hangzhou&color=&units=ca"></iframe>
+            <a href="#Jianggan"><h4 class="area" id="Jianggan">Jianggan, Hangzhou, Zhejiang</h4></a>
+            <iframe id=forecast_embed type=text/html frameborder=0 height=245 width=100% src="https://forecast.io/embed/#lat=30.2592&lon=120.2004&name=Jianggan, Hangzhou&color=&units=ca"></iframe>
+            <a href="#Xihu"><h4 class="area" id="Xihu">Xihu, Hangzhou, Zhejiang</h4></a>
+            <iframe id=forecast_embed type=text/html frameborder=0 height=245 width=100% src="https://forecast.io/embed/#lat=30.2617&lon=120.1257&name=Xihu, Hangzhou&color=&units=ca"></iframe>
+            <a href="#Gongshu"><h4 class="area" id="Gongshu">Gongshu, Hangzhou, Zhejiang</h4></a>
+            <iframe id=forecast_embed type=text/html frameborder=0 height=245 width=100% src="https://forecast.io/embed/#lat=30.3213&lon=120.1367&name=Gongshu, Hangzhou&color=&units=ca"></iframe>
+            <a href="#Yuhang"><h4 class="area" id="Yuhang">Yuhang, Hangzhou, Zhejiang</h4></a>
+            <iframe id=forecast_embed type=text/html frameborder=0 height=245 width=100% src="https://forecast.io/embed/#lat=30.4207&lon=120.2956&name=Yuhang, Hangzhou&color=&units=ca"></iframe>
+            <a href="#Fuyang"><h4 class="area" id="Fuyang">Fuyang, Hangzhou, Zhejiang</h4></a>
+            <iframe id=forecast_embed type=text/html frameborder=0 height=245 width=100% src="https://forecast.io/embed/#lat=30.0533&lon=120.9544&name=Fuyang, Hangzhou&color=&units=ca"></iframe>
+            <a href="#Linan"><h4 class="area" id="Linan">Lin'an, Hangzhou, Zhejiang</h4></a>
+            <iframe id=forecast_embed type=text/html frameborder=0 height=245 width=100% src="https://forecast.io/embed/#lat=30.2361&lon=120.7203&name=Lin'an, Hangzhou&color=&units=ca"></iframe>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js"><\/script>')</script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/js/ie10-viewport-bug-workaround.js"></script>
+ </body>
+</html>

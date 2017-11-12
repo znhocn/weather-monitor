@@ -4,8 +4,9 @@
 
 - [x] 天气预报 (Weather)
 - [x] 空气质量 (AQI)
-- [x] 气旋 (Cyclones)
-- [ ] 地震 (Earthquake)
+- [ ] 卫星云图 (Satellite)
+- [x] 台风气旋 (Cyclones)
+- [ ] 地震报告 (Earthquake)
 - [ ] 核子辐射 (Radiation)
 - [ ] 地球磁场 (Geomagnetism)
 - [ ] 宇宙空间 (Space Weather)
